@@ -1,0 +1,3 @@
+// Test environment — points to staging backend
+API_BASE_URL = https:\/\/api-test.example.com
+APP_ENV = test
