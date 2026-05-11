@@ -1,0 +1,18 @@
+PODS:
+  - GoogleMaps (10.13.0):
+    - GoogleMaps/Maps (= 10.13.0)
+  - GoogleMaps/Maps (10.13.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+
+SPEC CHECKSUMS:
+  GoogleMaps: 6204a0dfa2914b85f6e408cedff5fa19c7243618
+
+PODFILE CHECKSUM: 82933c4ba4811c6377fe2ebe4c080aeae57b0981
+
+COCOAPODS: 1.16.2

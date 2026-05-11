@@ -16,6 +16,16 @@ enum Configuration {
         return url
     }
 
+    static var googleMapsAPIKey: String {
+        guard
+            let key = Bundle.main.infoDictionary?["GoogleMapsAPIKey"] as? String,
+            !key.isEmpty
+        else {
+            fatalError("GoogleMapsAPIKey missing in Info.plist — check xcconfig")
+        }
+        return key
+    }
+
     static var environment: Environment {
         guard
             let raw = Bundle.main.infoDictionary?["AppEnvironment"] as? String,
