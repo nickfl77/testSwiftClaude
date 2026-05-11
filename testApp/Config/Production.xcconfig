@@ -1,3 +1,5 @@
+#include "../../Pods/Target Support Files/Pods-testApp/Pods-testApp.production.xcconfig"
+
 // Production environment — points to live backend
 API_BASE_URL = https:\/\/api.example.com
 APP_ENV = production
