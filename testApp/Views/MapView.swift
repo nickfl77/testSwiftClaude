@@ -21,6 +21,7 @@ struct MapView: UIViewRepresentable {
 
     func updateUIView(_ mapView: GMSMapView, context: Context) {
         mapView.isMyLocationEnabled = viewModel.locationAuthorized
+        mapView.mapType = viewModel.mapType.gmsType
 
         if let location = viewModel.locationManager.userLocation {
             mapView.animate(to: GMSCameraPosition(

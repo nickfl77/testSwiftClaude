@@ -17,6 +17,10 @@
 		AA1B2C3D4E5F6A7B8C9D0008 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9D001A /* MapViewModel.swift */; };
 		AA1B2C3D4E5F6A7B8C9D0009 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9D001B /* MapView.swift */; };
 		AA1B2C3D4E5F6A7B8C9D000A /* LocationPermissionDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9D001C /* LocationPermissionDeniedView.swift */; };
+		AA1B2C3D4E5F6A7B8C9DFF05 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9DFF01 /* MainTabView.swift */; };
+		AA1B2C3D4E5F6A7B8C9DFF06 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9DFF02 /* SearchView.swift */; };
+		AA1B2C3D4E5F6A7B8C9DFF07 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9DFF03 /* FavouritesView.swift */; };
+		AA1B2C3D4E5F6A7B8C9DFF08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F6A7B8C9DFF04 /* SettingsView.swift */; };
 		BAD5CB157726F891595721F2 /* Pods_testApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1E987C3802B26B8B62EC4C /* Pods_testApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +42,10 @@
 		AA1B2C3D4E5F6A7B8C9D001B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		AA1B2C3D4E5F6A7B8C9D001C /* LocationPermissionDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionDeniedView.swift; sourceTree = "<group>"; };
 		AA1B2C3D4E5F6A7B8C9D001D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1B2C3D4E5F6A7B8C9DFF01 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AA1B2C3D4E5F6A7B8C9DFF02 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AA1B2C3D4E5F6A7B8C9DFF03 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		AA1B2C3D4E5F6A7B8C9DFF04 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C4E3A49F208CA14DB6288A70 /* Pods-testApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testApp.release.xcconfig"; path = "Target Support Files/Pods-testApp/Pods-testApp.release.xcconfig"; sourceTree = "<group>"; };
 		D438997A83ED7F3B75E980EA /* Pods-testApp.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testApp.production.xcconfig"; path = "Target Support Files/Pods-testApp/Pods-testApp.production.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +144,10 @@
 			children = (
 				AA1B2C3D4E5F6A7B8C9D001B /* MapView.swift */,
 				AA1B2C3D4E5F6A7B8C9D001C /* LocationPermissionDeniedView.swift */,
+				AA1B2C3D4E5F6A7B8C9DFF01 /* MainTabView.swift */,
+				AA1B2C3D4E5F6A7B8C9DFF02 /* SearchView.swift */,
+				AA1B2C3D4E5F6A7B8C9DFF03 /* FavouritesView.swift */,
+				AA1B2C3D4E5F6A7B8C9DFF04 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +286,10 @@
 				AA1B2C3D4E5F6A7B8C9D0008 /* MapViewModel.swift in Sources */,
 				AA1B2C3D4E5F6A7B8C9D0009 /* MapView.swift in Sources */,
 				AA1B2C3D4E5F6A7B8C9D000A /* LocationPermissionDeniedView.swift in Sources */,
+				AA1B2C3D4E5F6A7B8C9DFF05 /* MainTabView.swift in Sources */,
+				AA1B2C3D4E5F6A7B8C9DFF06 /* SearchView.swift in Sources */,
+				AA1B2C3D4E5F6A7B8C9DFF07 /* FavouritesView.swift in Sources */,
+				AA1B2C3D4E5F6A7B8C9DFF08 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
