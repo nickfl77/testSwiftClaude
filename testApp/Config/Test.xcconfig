@@ -3,4 +3,4 @@
 // Test environment — points to staging backend
 API_BASE_URL = https:\/\/api-test.example.com
 APP_ENV = test
-GOOGLE_MAPS_API_KEY = AIzaSyCyNPLplcnZYSu6fYGFbyIAbNc-X7_pntE
+GOOGLE_MAPS_API_KEY = AIzaSyB5I-DlCSKFMHTVWNDg8TUawgGjL1UO6mg

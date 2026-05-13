@@ -3,4 +3,4 @@
 // Production environment — points to live backend
 API_BASE_URL = https:\/\/api.example.com
 APP_ENV = production
-GOOGLE_MAPS_API_KEY = AIzaSyCyNPLplcnZYSu6fYGFbyIAbNc-X7_pntE
+GOOGLE_MAPS_API_KEY = AIzaSyB5I-DlCSKFMHTVWNDg8TUawgGjL1UO6mg
